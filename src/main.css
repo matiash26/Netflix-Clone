@@ -1,0 +1,14 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Noto Sans Warang Citi', sans-serif;
+}
+body{
+  overflow-x: hidden;
+  background-color: black;
+}
+#root{
+  width: 100vw;
+}

@@ -1,0 +1,97 @@
+.Container{
+    width: 100vw;
+    height: 100%;
+}
+.Container-header{
+    background-image: url("../../assets/banner.jpg");
+    width: 100%;
+    height: 76vh;
+
+    background-size: cover;
+    background-position: right;
+    border-bottom: 8px solid rgb(128, 128, 128);
+
+    box-shadow: -5px -3px 51px 42px rgb(0 0 0) inset;
+}
+.Container-header::before{
+    content: "";
+    height: 76vh;
+    width: 100vw;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+}
+.Container-header main {
+    width: 100%;
+    height: 75vh;
+    margin-top: 8vh;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.plans{
+    max-width: 800px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.plans h1{
+    font-size: 4rem;
+    font-weight: 400;
+}
+.plans h2{
+    margin: 30px;
+    font-weight: 400;
+}
+.plans h3{
+    margin-bottom: 25px;
+    font-weight: 400;
+}
+.asking{
+    text-align: center;
+}
+.asking > h1{
+    font-size: 3rem;
+    margin: 70px 0 50px;
+    color: white;
+}
+.asking > div{
+    max-width: 870px;
+    margin: auto;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+.asking > div > p{
+    margin: 2rem 0 1.5rem 0;
+}
+.asking > div .btn-input{
+    margin-bottom: 4.5rem;
+}
+@media (max-width:1180px){
+    .plans{
+        width: 70%;
+    }
+    .plans h1{
+        font-size: 3rem;
+    }
+}
+@media (max-width:880px){
+    .asking{
+        padding: 1rem;
+    }
+    .asking > h1{
+        font-size: 2rem;
+    }
+}
+@media (max-width:650px){
+    .plans{
+        width: 90%;
+    }
+    .plans h1{
+        font-size: 2.5rem;
+    }
+}
