@@ -33,6 +33,7 @@
     font-size: 1.5rem;
     padding: 0 20px;
     cursor: pointer;
+    overflow-y: hidden;
 }
 
 .btn-input button:hover {

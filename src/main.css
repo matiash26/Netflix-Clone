@@ -4,9 +4,9 @@
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   font-family: 'Noto Sans Warang Citi', sans-serif;
+  overflow-x: hidden;
 }
 body{
-  overflow-x: hidden;
   background-color: black;
 }
 #root{
