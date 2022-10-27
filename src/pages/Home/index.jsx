@@ -11,10 +11,6 @@ import macbook from "../../assets/macbook.png"
 import stranger from "../../assets/stranger.png"
 import "./style.css"
 function Home() {
-    window.addEventListener("load", AnswerEvent)
-
-    function AnswerEvent() {
-    }
     return (
         <div className="Container">
             <div className="Container-header">
